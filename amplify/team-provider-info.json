@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bidscale-dev-132937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::519914110684:role/amplify-bidscale-dev-132937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::519914110684:role/amplify-bidscale-dev-132937-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bidscale-dev-132937-deployment",
+      "UnauthRoleName": "amplify-bidscale-dev-132937-unauthRole",
+      "StackName": "amplify-bidscale-dev-132937",
+      "StackId": "arn:aws:cloudformation:us-east-1:519914110684:stack/amplify-bidscale-dev-132937/3a4192c0-1811-11ed-9c26-0e3cee95ccd9",
+      "AmplifyAppId": "d1h5u1lj92a26q"
+    },
+    "categories": {
+      "auth": {
+        "bidscale7cc25de6": {},
+        "true": {}
+      },
+      "function": {
+        "S3Triggercd5024d7": {
+          "deploymentBucketName": "amplify-bidscale-dev-132937-deployment",
+          "s3Key": "amplify-builds/S3Triggercd5024d7-752b6b6b355737485665-build.zip"
+        },
+        "prodcutAccess": {
+          "deploymentBucketName": "amplify-bidscale-dev-132937-deployment",
+          "s3Key": "amplify-builds/prodcutAccess-6c6c76474a42564b726c-build.zip"
+        }
+      }
+    }
+  }
+}

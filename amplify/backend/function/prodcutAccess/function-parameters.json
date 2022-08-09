@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "storage": {
+      "product": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

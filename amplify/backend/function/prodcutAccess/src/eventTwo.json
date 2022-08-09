@@ -1,0 +1,6 @@
+{
+  "path": "listWarehousesByProduct",
+  "params": {
+    "product_id": "product#003"
+  }
+}

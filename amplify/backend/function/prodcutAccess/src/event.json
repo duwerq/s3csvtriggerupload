@@ -1,0 +1,7 @@
+{
+  "path": "getWarehouseProductTotalValue",
+  "params": {
+    "warehouse_id": "warehouse#003",
+    "product_id": "product#003"
+  }
+}

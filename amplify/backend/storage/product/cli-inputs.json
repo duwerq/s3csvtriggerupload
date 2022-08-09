@@ -1,0 +1,26 @@
+{
+  "resourceName": "product",
+  "tableName": "product",
+  "partitionKey": {
+    "fieldName": "pk",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "sk",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "sk-pk",
+      "partitionKey": {
+        "fieldName": "sk",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "pk",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}
